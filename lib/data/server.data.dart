@@ -1,3 +1,3 @@
 
-String loginUrl = "http://192.168.1.3:5001/api/admin/login";
-String checkUrl = "http://192.168.1.3:5003/api/payment/qrCode";
+String loginUrl = "http://192.168.14.216:5001/api/admin/login";
+String checkUrl = "http://192.168.14.216:5003/api/payment/qrCode";

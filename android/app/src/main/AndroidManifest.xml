@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.plasti.plastivalidation">
    <application
-        android:label="plastivalidation"
+        android:label="Plasti check"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
