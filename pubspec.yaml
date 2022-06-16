@@ -39,6 +39,7 @@ dependencies:
   flutter_lints: ^1.0.0
   google_fonts: ^2.3.0
   get: ^4.6.1
+
   persistent_bottom_nav_bar_v2: ^4.1.1
   flutter_svg: ^1.0.3
   cached_network_image: ^3.2.0

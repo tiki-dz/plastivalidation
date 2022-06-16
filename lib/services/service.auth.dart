@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:plastivalidation/controller/controller.local.dart';
@@ -29,6 +30,8 @@ class AuthService {
          headers: {
         'x-access-token' : token,
           });
+      debugPrint(checkUrl);
+      print("wow");
       print(response.body);
       if (response.statusCode == 200) {
         var jsonData = jsonDecode(response.body);
